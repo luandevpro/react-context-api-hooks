@@ -1,8 +1,8 @@
-import useCounter from './useCounter';
-import { useCombineReducer } from './useCombineReducer';
+import useCounter from "./useCounter";
+import { useCombineReducer } from "./useCombineReducer";
 
 const reducers = useCombineReducer({
-	counter: useCounter,
+  counter: useCounter
 });
 
 export default reducers;
